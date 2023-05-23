@@ -1,1 +1,41 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  width: 1240px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@font-face {
+  font-family: DMSans-normal;
+  src: url(./fonts/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: Rosario;
+  src: url(./fonts/Rosario-Bold.ttf);
+}
+body {
+  font-family: "DMSans-normal";
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Rosario", sans-serif;
+  font-weight: 700;
+  color: #222222;
+}/*# sourceMappingURL=style.css.map */
