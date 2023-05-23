@@ -21,6 +21,10 @@ a {
   color: black;
 }
 
+li {
+  list-style: none;
+}
+
 @font-face {
   font-family: DMSans-normal;
   src: url(./fonts/DMSans-Regular.ttf);
@@ -38,4 +42,25 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Rosario", sans-serif;
   font-weight: 700;
   color: #222222;
+}
+
+.header {
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.header-navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
 }/*# sourceMappingURL=style.css.map */
