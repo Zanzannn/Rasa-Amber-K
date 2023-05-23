@@ -1,6 +1,7 @@
 .header {
     width: 100%;
     min-height: 70px;
+    background: #a9a5a5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,6 +18,46 @@
             justify-content: space-between;
             align-items: center;
             gap: 60px;
+                
+            &-item {
+                min-width: 50px;
+
+                &-link {
+                    transition: 0.7s ease;
+
+                    &:hover {
+                        color: cadetblue;
+                    }
+
+                }
+
+                
+            }
+            
+
+        }
+
+        &-logo {
+            &-img {
+                width: 30%;
+            }
+            
+        }
+        
+        &-hamburger {
+            display: none;
+            cursor: pointer;
+
+            &-bar {
+                display: block;
+                width: 25px;
+                height: 3px;
+                margin: 5px auto;
+                -webkit-transition: all 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+                background: white;
+            }
+
         }
     }
 
