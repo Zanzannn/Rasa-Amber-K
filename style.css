@@ -73,9 +73,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header-navbar-menu-item-link:hover {
   color: cadetblue;
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid #09A66D;
 }
 .header-navbar-logo-img {
   width: 30%;
+}
+.header-navbar-logo a img:hover {
+  rotate: 360deg;
+  transition: all 0.3s ease-in-out;
 }
 .header-navbar-hamburger {
   display: none;
@@ -112,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: burlywood;
     width: 100%;
     text-align: center;
-    transition: 0.3s;
+    transition: 0.5s;
   }
   .header-navbar-menu-item {
     margin: 16px 0;

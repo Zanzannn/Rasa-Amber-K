@@ -27,21 +27,23 @@
 
                     &:hover {
                         color: cadetblue;
+                        opacity: .7;
+                        transition: all .3s ease-in-out;
+                        border-bottom: 2px solid $dark-green;
                     }
-
                 }
-
-                
             }
-            
-
         }
 
         &-logo {
             &-img {
                 width: 30%;
             }
-            
+
+             a img:hover {
+                rotate: 360deg;
+                transition: all .3s ease-in-out;  
+            } 
         }
         
         &-hamburger {
@@ -57,8 +59,6 @@
                 transition: all 0.3s ease-in-out;
                 background: white;
             }
-
         }
     }
-
 }
