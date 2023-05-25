@@ -13,12 +13,12 @@
 }
 
 .container {
-  width: 1240px;
+  width: 1440px;
 }
 
 a {
   text-decoration: none;
-  color: rgb(244, 239, 239);
+  color: #fffefb;
 }
 
 li {
@@ -45,21 +45,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-  width: 100%;
-  min-height: 70px;
-  background: #a9a5a5;
+  max-width: 1440px;
+  min-height: 55px;
+  background: linear-gradient(90deg, rgba(169, 179, 186, 0.5858718487) 1%, rgba(218, 217, 214, 0.6026785714) 3%, rgba(252, 249, 244, 0.5326505602) 5%, rgba(217, 219, 218, 0.599877451) 7%, rgba(177, 185, 196, 0.5326505602) 11%, rgba(178, 185, 195, 0.543855042) 15%, rgba(117, 123, 133, 0.5158438375) 23%, rgba(148, 146, 150, 0.5830707283) 30%, rgb(159, 158, 162) 36%, rgb(165, 165, 169) 41%, rgb(191, 191, 191) 44%, rgb(177, 179, 183) 47%, rgb(185, 188, 192) 51%, rgb(200, 205, 208) 58%, rgba(230, 238, 241, 0.5326505602) 72%, rgba(237, 224, 208, 0.5382528011) 77%, rgba(148, 146, 150, 0.4290091036) 84%, rgb(237, 224, 208) 91%, rgba(169, 179, 186, 0.5298494398) 94%);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .header-navbar {
-  min-height: 70px;
+  max-width: 1440px;
+  min-height: 55px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
 }
 .header-navbar-menu {
+  padding-left: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,13 +74,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.7s ease;
 }
 .header-navbar-menu-item-link:hover {
-  color: cadetblue;
+  color: #2e333b;
   opacity: 0.7;
   transition: all 0.3s ease-in-out;
-  border-bottom: 2px solid #09A66D;
-}
-.header-navbar-logo-img {
-  width: 30%;
+  border-bottom: 2px solid #2e333b;
 }
 .header-navbar-logo a img:hover {
   rotate: 360deg;
@@ -127,4 +126,96 @@ h1, h2, h3, h4, h5, h6 {
   .header-navbar-menu.active {
     left: 0;
   }
+}
+.slide {
+  width: 1440px;
+  height: 850px;
+  background: url(./images/Verdens.jpg) no-repeat -40px, url(./images/slide-section/main-vegetables.png) no-repeat 100px 400px;
+  background-color: #F3FBF8;
+}
+.slide-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 93px;
+}
+.slide-paragraph {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 90px;
+  font-family: "Rosario";
+  align-self: center;
+  margin-bottom: 20px;
+}
+.slide-paragraph-content {
+  width: 637px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+  align-self: center;
+  -moz-text-align-last: center;
+       text-align-last: center;
+  margin-bottom: 57px;
+}
+.slide-paragraph-btn {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.slide-paragraph-btn-content {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #222222;
+}
+.slide-paragraph-btn-content-title {
+  width: 64px;
+  height: 64px;
+  background: #09A66D;
+  border: #09A66D;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide-paragraph-btn-content-img {
+  width: 32px;
+}
+.slide-cards {
+  width: 250px;
+  height: 408px;
+  padding-left: 1090px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.slide-card {
+  width: 250px;
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+.slide-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.slide-card-content-title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+}
+.slide-card-content-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+.slide-icon {
+  width: 56px 56px;
+  margin-right: 25px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,19 +1,21 @@
 .header {
-    width: 100%;
-    min-height: 70px;
-    background: #a9a5a5;
+    max-width: 1440px;
+    min-height: 55px;
+    background: linear-gradient(90deg, rgba(169,179,186,0.5858718487394958) 1%, rgba(218,217,214,0.6026785714285714) 3%, rgba(252,249,244,0.5326505602240896) 5%, rgba(217,219,218,0.5998774509803921) 7%, rgba(177,185,196,0.5326505602240896) 11%, rgba(178,185,195,0.5438550420168067) 15%, rgba(117,123,133,0.5158438375350141) 23%, rgba(148,146,150,0.5830707282913166) 30%, rgba(159,158,162,1) 36%, rgba(165,165,169,1) 41%, rgba(191,191,191,1) 44%, rgba(177,179,183,1) 47%, rgba(185,188,192,1) 51%, rgba(200,205,208,1) 58%, rgba(230,238,241,0.5326505602240896) 72%, rgba(237,224,208,0.5382528011204482) 77%, rgba(148,146,150,0.4290091036414566) 84%, rgba(237,224,208,1) 91%, rgba(169,179,186,0.5298494397759104) 94%);
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     &-navbar {
-        min-height: 70px;
+        max-width: 1440px;
+        min-height: 55px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 24px;
 
         &-menu {
+            padding-left: 50px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -26,20 +28,17 @@
                     transition: 0.7s ease;
 
                     &:hover {
-                        color: cadetblue;
+                        color: #2e333b;
                         opacity: .7;
                         transition: all .3s ease-in-out;
-                        border-bottom: 2px solid $dark-green;
+                        border-bottom: 2px solid #2e333b;
                     }
                 }
             }
         }
 
         &-logo {
-            &-img {
-                width: 30%;
-            }
-
+           
              a img:hover {
                 rotate: 360deg;
                 transition: all .3s ease-in-out;  

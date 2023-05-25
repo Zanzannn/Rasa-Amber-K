@@ -13,12 +13,12 @@
   }
   
   .container {
-    width: 1240px;
+    width: 1440px;
   }
   
   a {
     text-decoration: none;
-    color: rgb(244, 239, 239);
+    color: #fffefb;
   }
 
   li {
@@ -43,5 +43,5 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Rosario', sans-serif;
     font-weight: 700;
-    color: $dark-text;
+    color: $light-text;
   }
