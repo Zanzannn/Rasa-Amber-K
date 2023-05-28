@@ -37,11 +37,13 @@
             }
         }
 
-        &-logo {
+        &-logo a img {
+            filter: hue-rotate(225deg);
            
              a img:hover {
                 rotate: 360deg;
-                transition: all .3s ease-in-out;  
+                transition: all .3s ease-in-out;
+                 
             } 
         }
         
